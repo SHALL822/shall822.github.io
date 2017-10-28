@@ -1,0 +1,17 @@
+body {
+	background: #E5D3A9;
+	text-align: center;
+}
+
+#fancywalls {
+	font-style: italic; 
+}
+
+h1, p {
+	color: white;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 200px;
+}
