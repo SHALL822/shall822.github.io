@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Josefin+Slab');
+
+
+body {
+	background: #E5D3A9;
+	font-family: 'Josefin Slab', serfi;
+	text-align: center;
+}
+
+#fancywalls { 
+	font-family: 'Dancing Script', cursive;
+}
+
+#welcome {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#history {
+	font-size: 30px;
+}
+
+#signature {
+	font-size: 32px;
+}
+
+#email {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h1, p {
+	color: white;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 75px;
+}
+
+img {
+	width: 30%;
+}
+
+hr {
+  width: 800px;
+}
