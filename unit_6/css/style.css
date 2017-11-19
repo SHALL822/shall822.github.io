@@ -1,0 +1,84 @@
+header {
+    background-color: #F09E6C;
+    border: 1px white solid;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: papayawhip;
+    border: 1px white solid;
+    text-align: center;
+    font color: red;
+    padding-right: 30px
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px white solid;
+    padding: 20px;
+}
+
+figure {
+    background-color: #FFC675;
+    border: 1px white solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #F09E6C;
+    border: 1px white solid;
+    padding: 20px;
+}
+
+div {
+    background-color: peachpuff;
+    border: 1px white solid;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    height: 220px;
+    border: 1px solid white;
+    
+}
+a:hover {
+    background-color: gray;
+}
+
+#three_column {
+    background-color: #FF957E;
+    border: 1px white solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: peachpuff;
+    border: 3px white solid;
+    padding: 20px 1em;
+    float: left;
+    width: 35%;
+}
+#center {
+    background-color: peachpuff;
+    border: 3px white solid;
+    padding: 20px 1.1em;
+    float: left;   
+    width: 22%;
+}
+#right {
+    background-color: peachpuff;
+    border: 3px white solid;
+    padding: 20px 1.1em;
+    float: left;   
+    width: 19%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
