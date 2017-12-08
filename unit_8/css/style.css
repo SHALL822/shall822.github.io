@@ -5,8 +5,10 @@
 }
 header {
     background-color: #F09E6C;
+    color: papayawhip;
+    font-size: 2em;
     border: 1px white solid;
-    padding: 10%;
+    padding: 8%;
     text-align: center;
     width: 100%;
 }
@@ -16,13 +18,13 @@ nav {
     text-align: center;
 }
 nav a {
-    color: #F09E6C;
+    color: black;
     display:inline-block;
     padding:.5em 1em;
     text-decoration:none;
 }
 nav a:hover {
-    background-color: peachpuff;
+    background-color: #FF957E;
 }
 
 footer {
@@ -59,6 +61,7 @@ img {
     padding: 5% 1em;
     float: left;
     width: 33.33%;
+    font-size: 1.2em;
 }
 
 .clearfix:after {
