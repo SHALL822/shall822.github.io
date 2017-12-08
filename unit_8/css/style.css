@@ -64,7 +64,7 @@ img {
     width: 100%;
 }
 
-#left {
+.infopic {
     background-color: peachpuff;
     border: 3% white solid;
     padding: 5% 1em;
