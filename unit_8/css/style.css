@@ -16,24 +16,13 @@ nav {
     text-align: center;
 }
 nav a {
-    color: red;
+    color: #F09E6C;
     display:inline-block;
     padding:.5em 1em;
     text-decoration:none;
 }
 nav a:hover {
-    background-color: gray;
-}
-article {
-    background-color: #E89C6C;
-    border: 1px white solid;
-    padding: 5%;
-}
-
-figure {
-    background-color: #FFC675;
-    border: 1px white solid;
-    padding: 20%;
+    background-color: peachpuff;
 }
 
 footer {
@@ -60,7 +49,7 @@ img {
 #three_column {
     background-color: #FF957E;
     border: 1px white solid;
-    padding: 1.5%;
+    padding: 1.5em;
     width: 100%;
 }
 
