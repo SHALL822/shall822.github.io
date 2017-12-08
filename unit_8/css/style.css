@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header {
     background-color: #F09E6C;
     border: 1px white solid;
@@ -9,11 +14,16 @@ nav {
     background-color: papayawhip;
     border: 1px white solid;
     text-align: center;
-    font color: red;
-    float: none;
-    width: 100%;
 }
-
+nav a {
+    color: red;
+    display:inline-block;
+    padding:.5em 1em;
+    text-decoration:none;
+}
+nav a:hover {
+    background-color: gray;
+}
 article {
     background-color: #E89C6C;
     border: 1px white solid;
@@ -36,19 +46,16 @@ footer {
 div {
     background-color: peachpuff;
     border: 1px white solid;
-    padding: 20%;
+    margin: auto;
     text-align: center;
-    width: 60%;
+    max-width: 1200px;
 }
 
 img {
-    height: 220px;
+    width: 100%;
     border: 1px solid white;
-    
 }
-a:hover {
-    background-color: gray;
-}
+
 
 #three_column {
     background-color: #FF957E;
@@ -62,21 +69,7 @@ a:hover {
     border: 3% white solid;
     padding: 5% 1em;
     float: left;
-    width: 30%;
-}
-#center {
-    background-color: peachpuff;
-    border: 3% white solid;
-    padding: 5% 1.1em;
-    float: left;   
-    width: 22%;
-}
-#right {
-    background-color: peachpuff;
-    border: 3% white solid;
-    padding: 5% 1.1em;
-    float: left;   
-    width: 19%;
+    width: 33.33%;
 }
 
 .clearfix:after {
