@@ -64,6 +64,21 @@ img {
     font-size: 1.2em;
 }
 
+@media only screen and (max-width: 816px) {
+    .infopic {
+        float: none;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 558px) {
+    nav {
+        float: none;
+        width: auto;
+    }
+}
+
+
 .clearfix:after {
     visibility: hidden;
     display: block;
