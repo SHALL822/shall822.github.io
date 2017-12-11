@@ -67,7 +67,7 @@ img {
 @media only screen and (max-width: 816px) {
     .infopic {
         float: none;
-        width: auto;
+        width: 100%;
     }
 }
 
